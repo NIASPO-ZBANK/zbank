@@ -1,0 +1,12 @@
+server:
+  addr: "localhost"
+  port: "8080"
+
+  oreshnik_data:
+    db:
+      driver: "postgres"
+      addr: "localhost"
+      port: "5440"
+      db: "zbank"
+      user_env_key: "DB_USER"
+      password_env_key: "DB_PASSWORD"
